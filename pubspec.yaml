@@ -1,0 +1,85 @@
+name: dilexus
+description: Dilexus Flutter Framework.
+version: 1.0.65+65
+author: Chatura Dilan
+homepage: https://dilan.me
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.20.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #UI
+  google_fonts: 1.1.1
+  theme_provider: 0.4.0+1
+  hexcolor: 1.0.6
+  carousel_slider: 2.3.1
+  font_awesome_flutter: 8.10.0
+  flutter_form_builder: 3.14.1
+  rflutter_alert: 1.1.0
+  flutter_styled_toast: 1.4.0+1
+  shared_preferences: 0.5.12+4
+  progress_indicators: 0.1.5
+  flutter_statusbarcolor: 0.2.3
+  cached_network_image: 2.3.3
+  flutter_rating_bar: ^3.0.1+1
+
+
+  #Localization
+  easy_localization: 2.3.3
+
+  #Dev
+  provider: 4.3.2+2
+  flutter_flavor: 1.1.2
+  route_transitions: 1.0.2
+  after_layout: 1.0.7+2
+  crypto: 2.1.5
+  path_provider: 1.6.24
+
+  #Firebase
+  firebase_core: 0.5.2
+  firebase_analytics: 6.2.0
+  firebase_auth: 0.18.3
+  firebase_remote_config: 0.4.2
+
+  #Auth
+  google_sign_in: 4.5.6
+  flutter_facebook_login: 3.0.0
+  sign_in_with_apple: 2.5.4
+
+  #Logs
+  quick_log: 2.0.0
+
+  #Info
+  package_info: 0.4.3+2
+
+  #API Calls
+  retrofit: 1.3.4+1
+  dio: 3.0.10
+  json_serializable: 3.5.0
+  json_annotation: 3.1.0
+
+  #DB
+  floor: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: 1.10.4
+
+  #Retrofit
+  retrofit_generator: 1.4.0+1
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.dilexus
+        pluginClass: DilexusPlugin
+      ios:
+        pluginClass: DilexusPlugin
+
