@@ -1,15 +1,16 @@
-# dilexus
+# Dilexus Flutter Framework
 
-Dilexus Flutter Framework.
+A Framework to create Flutter apps easily and fast. 
+
+Features
+1. Splash Screen
+2. Login with Facebook
+3. Login with Goolge
+4. Custom Login
+5. Apple Login
+6. Firebase Integration
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Please contact me for more details: https://dilan.me
 
